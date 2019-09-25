@@ -1,0 +1,34 @@
+import styled from 'styled-components'
+
+export const DetailWrap = styled.div`
+  width: 620px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding-bottom: 100px;
+`
+
+export const Header = styled.div`
+  margin-top: 60px;
+  margin-bottom: 10px;
+  text-align: center;
+	line-height: 44px;
+	font-size: 30px;
+	color: #333;
+	font-weight: bold;
+`
+export const Content = styled.div`
+  color: #2f2f2f;
+	img {
+		width: 100%;
+    border-radius: 10px;
+	}
+	p {
+		margin: 25px 0;
+		font-size: 16px;
+		line-height: 30px;
+    text-indent: 2em;
+	}
+	b {
+		font-weight: bold;
+	}
+`
